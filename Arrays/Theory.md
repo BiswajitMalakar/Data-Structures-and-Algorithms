@@ -7,25 +7,25 @@
 
 
 ## DECLARATION OF ARRAYS
-Format :
-``` datatype array_name [size]; ```
+Format : 
+` datatype array_name [size]; `
 
-[datatype] : datatype can be any primtive datatype like int, float, double, char, bool etc.
+**datatype** can be any primtive datatype like int, float, double, char, bool etc.
 
-[array_name] : this is any user given name that must follow basic namming rules.
+**array_name** is any user given name that must follow basic namming rules.
 
-[size] : it must be +ve and should be in the range of integer number.
+**size** must be +ve and should be in the range of integer number.
 
 
 Example : 
-``` int a[100]; ```
+` int a[100];`
 
 
-### MAGIC IS HAPPENING INTERNALLY!
- a[0]  a[1]  a[2]  a[3]  a[4]  ......  a[99]   ---> variable names with unique index
----------------------------------------------
+## MAGIC IS HAPPENING INTERNALLY
+a[0]  a[1]  a[2]  a[3]  a[4]  ......  a[99]   ---> variable names with unique index
+_____________________________________________
 |  0  |  0  |  0  |  0  |  0  | ..... |  0  |  ---> these are the values 
----------------------------------------------
+_____________________________________________
 1331   1335   1339  1343  1347 ......  xxxx    ---> these are contiguous addresses
 
 
