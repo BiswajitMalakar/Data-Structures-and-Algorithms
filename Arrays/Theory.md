@@ -36,38 +36,38 @@ a[0]  a[1]  a[2]  a[3]  a[4]  ......  a[99]   ---> variable names with unique in
 
 
 ## INITIALIZING ARRAYS
-``` int a[10] = {}; ```
+` int a[10] = {}; `
 This will create an array of size 10 and initialize with 0 (*default value for Integers*) for each indices.
-
+```
  a[0]  a[1]  a[2]  a[3]  a[4]  ......  a[9] 
 ---------------------------------------------
 |  0  |  0  |  0  |  0  |  0  | ..... |  0  | 
 ---------------------------------------------
 1331   1335   1339  1343  1347 ......  xxxx 
+```
 
 
 
-
-``` int a[5] = {10, 20, 30, 40, 50}; ```
+` int a[5] = {10, 20, 30, 40, 50}; `
 This will create an array of size 5 and initialize the values given in the curly bracket orderly in each indices.
-
+```
  a[0]   a[1]   a[2]   a[3]   a[4]
 ------------------------------------
 |  10  |  20  |  30  |  40  |  50  |
 ------------------------------------
 1990    1994   1998   2002   2006 
+```
 
 
-
-``` int a[] = {10, 20, 30, 40. 50}; ```
+` int a[] = {10, 20, 30, 40. 50}; `
 If we are initializing the array while declaring then mantioning the size of the array in optional.
-
+```
  a[0]   a[1]   a[2]   a[3]   a[4]
 ------------------------------------
 |  10  |  20  |  30  |  40  |  50  |
 ------------------------------------
 1990    1994   1998   2002   2006 
-
+```
 
 **[KEEP IN MIND]** In C if we are trying to declare an array outside of any block (in global area) then declaring the size of the array in optional. But if we are in declaring array in any block (in local area) then declaring size is mandatory.
 
@@ -86,7 +86,7 @@ int main() {
 
 ## ACCESSING ARRAY
 For accessing elements of an array we need to use the name of the array and the particular index number which value we want to access.
-``` int x = a[4]; // i want to access elements that sorted in index no. 4 of 'a' array variable```
+` int x = a[4]; // i want to access elements that sorted in index no. 4 of 'a' array variable`
 
 We can use loops to access each indivisual indices of an array.
 ```
